@@ -3,6 +3,7 @@ import Header from '@components/Header'
 import Footer from '@components/Footer'
 
 export default function Home() {
+  fetch("https://www.los.no/episerverApi/price/info");
   return (
     <div className="container">
       <Head>
