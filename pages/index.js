@@ -16,6 +16,7 @@ export default function Home() {
           Knusk tørr ved!
         </p>
         <p className="log">🪵</p>
+        <p>975 99 771</p>
       </main>
     </div>
   )
