@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <>
       <footer className={styles.footer}>
-        +47 972 99 711
+        <p>+47 975 99 711</p>
       </footer>
     </>
   )
