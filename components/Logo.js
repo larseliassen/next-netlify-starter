@@ -1,5 +1,5 @@
 const myStyle = {
-  width:"20em",
+  width:"60vh",
   height:"auto"     
 }
 export default function Logo() {

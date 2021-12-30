@@ -1,4 +1,8 @@
 .footer {
- position: relative;
- bottom: 0;
+  position: fixed;
+  bottom: 0;
+  font-size: 2em;
+  text-align: center;
+  margin: auto;
+  left: 27%;
 }
