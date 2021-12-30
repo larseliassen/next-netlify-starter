@@ -1,20 +1,20 @@
 import SideBar from "../components/Sidebar";
-import Logo from "@components/Logo";
 import Footer from "@components/Footer";
 
-export default function Home() {
+
+export default function Wood() {
 
   return (
     
       <div id="App">
-
         <SideBar pageWrapId={"page-wrap"} outerContainerId={"App"} />
   
         <div id="page-wrap">
-          <Logo></Logo>
+          <h1>Knusk tørr ved</h1>
+          <h2>1300kr per pall. Levert på døra.</h2>
+          <img className="wood-hero" src="ved.jpg"></img>
           <Footer></Footer>
         </div>
-        
       </div>
     );
 }
