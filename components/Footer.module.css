@@ -1,8 +1,9 @@
 .footer {
   position: fixed;
   bottom: 0;
-  font-size: 2em;
+  font-size: 3vw;
   text-align: center;
   margin: auto;
-  left: 27%;
+  width: 100%;
+  background: rgba(0,0,0,0.2);
 }
