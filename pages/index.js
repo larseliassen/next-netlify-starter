@@ -1,20 +1,14 @@
-import SideBar from "../components/Sidebar";
 import Logo from "@components/Logo";
-import Footer from "@components/Footer";
 
 export default function Home() {
 
-  return (
-    
-      <div id="App">
-
-        <SideBar pageWrapId={"page-wrap"} outerContainerId={"App"} />
-  
+  return (    
+      <div>      
         <div id="page-wrap">
+          <div id="logocontainer">
           <Logo></Logo>
-          <Footer></Footer>
-        </div>
-        
+          </div>          
+        </div>        
       </div>
     );
 }
