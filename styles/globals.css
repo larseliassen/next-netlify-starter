@@ -8,6 +8,7 @@ body {
   font-family: Quicksand, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
     Fira Sans, Droid Sans, Helvetica Neue, sans-serif;  
   color: #fafafa;
+  overflow: hidden; /* Hide scrollbars */
 }
 
 div#App {
