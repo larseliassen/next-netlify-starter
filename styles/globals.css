@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Quicksand:wght@300&display=swap');
 
 html,
 body {
@@ -7,13 +7,10 @@ body {
   margin: 0;
   font-family: Quicksand, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
     Fira Sans, Droid Sans, Helvetica Neue, sans-serif;  
-  color: #fafafa;
+  color: #000;
 }
 
 div#App {
-  background-image: url("/wood.jpg");
-  background-position: right;
-  background-size: cover;
 }
 
 #App.wood {
@@ -35,6 +32,41 @@ a[href^=tel] {
 
 * {
   box-sizing: border-box;
+}
+
+.clipped-heading {
+  width:100%;
+  text-align:center;
+  height:auto;
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
+  font-weight:bolder;
+  font-size: 9em;
+  background-size: cover;
+  font-family: Montserrat;
+}
+
+.clipped-heading:before{
+  content: "KNUSK TØRR BJØRK";
+  animation-name: head;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  background:url("/tre.jpg");
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
+  font-weight:bolder;
+  background-size: contain;
+  font-family: Montserrat;
+}
+
+@keyframes head {
+  0% {opacity:1; content: "KNUSK TØRR VED"}
+  40% {opacity:1; content: "KNUSK TØRR BJØRK"}
+  60% {opacity:1; content: "KNUSK TØRR ROGN"}
+  80% {opacity:1; content: "KNUSK TØRR SELJE"}
+  100% {opacity:1; content: "KNUSK TØRR VED"}
 }
 
 h1 {
@@ -95,13 +127,13 @@ body {
   /* Our sidebar item styling */
   text-decoration: none;
   margin-bottom: 10px;
-  color: #d1d1d1;
+  color: black;
   transition: color 0.2s;
 }
 
 /* Change color on hover */
 .bm-item:hover {
-  color: white;
+  color: black;
 }
 
 /* The rest copied directly from react-burger-menu docs */
@@ -117,7 +149,7 @@ body {
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  background: #FFF;
+  background: black;
 }
 
 /* Position and sizing of clickable cross button */
@@ -133,7 +165,7 @@ body {
 
 /* General sidebar styles */
 .bm-menu {
-  background: #000;
+  background: #fff;
   opacity: 0.8;
   padding: 2.5em 1.5em 0;
   font-size: 2.15em;
@@ -153,7 +185,7 @@ body {
 
 /* Styling of overlay */
 .bm-overlay {
-  background: rgba(0, 0, 0, 0.75);
+  background: rgba(255, 255, 255, 0.75) !important;
 }
 
 .wood-hero {
@@ -166,5 +198,5 @@ body {
 }
 
 #logocontainer {
-  margin-top: 20vh;
+  
 }

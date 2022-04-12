@@ -14,11 +14,7 @@ function Application({ Component, pageProps }) {
     
     <div id="App" className={router.pathname.substring(1)}>
     <SideBar pageWrapId={"page-wrap"} outerContainerId={"App"} width={"100%"} />
-    {
-        [...Array(50)].map((_, i) => (
-          <div className="snowflake"/>
-          ))
-      }
+    
   <Component {...pageProps} />
   <Footer></Footer>
   </div>
