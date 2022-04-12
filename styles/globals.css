@@ -38,6 +38,7 @@ a[href^=tel] {
   width:100%;
   text-align:center;
   height:auto;
+  background:url("/tre.jpg");
   -webkit-background-clip:text;
   background-clip:text;
   color:transparent;
@@ -45,13 +46,13 @@ a[href^=tel] {
   font-size: 9em;
   background-size: cover;
   font-family: Montserrat;
+  white-space: pre;
+
 }
 
-.clipped-heading:before{
-  content: "KNUSK TØRR BJØRK";
-  animation-name: head;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
+.clipped-heading span:before{
+
+  animation: head 4s 0.01s infinite;
   background:url("/tre.jpg");
   -webkit-background-clip:text;
   background-clip:text;
@@ -59,14 +60,16 @@ a[href^=tel] {
   font-weight:bolder;
   background-size: contain;
   font-family: Montserrat;
+  white-space: normal;
+  text-align: center;
 }
 
 @keyframes head {
-  0% {opacity:1; content: "KNUSK TØRR VED"}
-  40% {opacity:1; content: "KNUSK TØRR BJØRK"}
-  60% {opacity:1; content: "KNUSK TØRR ROGN"}
-  80% {opacity:1; content: "KNUSK TØRR SELJE"}
-  100% {opacity:1; content: "KNUSK TØRR VED"}
+  0% {content: "VED"}
+  40% {content: "BJØRK"}
+  60% {content: "ROGN"}
+  80% {content: "SELJE"}
+  100% {content: "VED"}
 }
 
 h1 {
