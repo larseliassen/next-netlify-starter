@@ -5,7 +5,7 @@ export default function Wood() {
         <div id="page-wrap">
             <div id="logocontainer">
           <h1>Knusk tørr ved</h1>
-          <h2>1300kr per pall. Levert på døra.</h2>          
+          <h2>1500kr per pall. Levert på døra.</h2>          
         </div>
       </div>
       </div>
