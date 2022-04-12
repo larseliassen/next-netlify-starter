@@ -11,6 +11,7 @@ body {
 }
 
 div#App {
+  display: flex;
 }
 
 #App.wood {
@@ -43,7 +44,7 @@ a[href^=tel] {
   background-clip:text;
   color:transparent;
   font-weight:bolder;
-  font-size: 9em;
+  font-size: 6em;
   background-size: cover;
   font-family: Montserrat, sans-serif;
   white-space: pre;
@@ -178,5 +179,9 @@ body {
 }
 
 #logocontainer {
-  
+  height: 90%; 
+  width:100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
