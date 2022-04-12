@@ -45,31 +45,8 @@ a[href^=tel] {
   font-weight:bolder;
   font-size: 9em;
   background-size: cover;
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   white-space: pre;
-
-}
-
-.clipped-heading span:before{
-
-  animation: head 4s 0.01s infinite;
-  background:url("/tre.jpg");
-  -webkit-background-clip:text;
-  background-clip:text;
-  color:transparent;
-  font-weight:bolder;
-  background-size: contain;
-  font-family: Montserrat;
-  white-space: normal;
-  text-align: center;
-}
-
-@keyframes head {
-  0% {content: "VED"}
-  40% {content: "BJØRK"}
-  60% {content: "ROGN"}
-  80% {content: "SELJE"}
-  100% {content: "VED"}
 }
 
 h1 {
