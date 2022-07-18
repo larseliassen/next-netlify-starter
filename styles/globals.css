@@ -54,7 +54,7 @@ a[href^=tel] {
   background-clip:text;
   color:transparent;
   font-weight:bolder;
-  font-size: 24vw;
+  font-size: min(24vw,24vh);
   background-size: cover;
   font-family: Montserrat, sans-serif;
   white-space: pre;
