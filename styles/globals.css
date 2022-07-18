@@ -216,6 +216,6 @@ body {
 .right {
   inset: 0 0 auto auto;
   transform-origin: 0 0;
-  transform: translate(29.3%) rotate(45deg);
+  transform: translate(40%) rotate(45deg);
 }
 
