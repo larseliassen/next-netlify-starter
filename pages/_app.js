@@ -12,8 +12,7 @@ function Application({ Component, pageProps }) {
 
   return (
     
-    <div id="App" className={router.pathname.substring(1)}>
-    <SideBar pageWrapId={"page-wrap"} outerContainerId={"App"} width={"100%"} />
+    <div id="App" className={router.pathname.substring(1)}>    
     
   <Component {...pageProps} />
   <Footer></Footer>

@@ -16,10 +16,12 @@ body {
   font-family: Quicksand, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
     Fira Sans, Droid Sans, Helvetica Neue, sans-serif;  
   color: #000;
+  background: white;
 }
 
 div#App {
   display: flex;
+  width: 100%;
 }
 
 #App.wood {
@@ -187,9 +189,33 @@ body {
 }
 
 #logocontainer {
+  margin: auto;
   height: 90%; 
   width:100%;
   display:flex;
   align-items: center;
   justify-content: center;
 }
+
+.ribbon-1 {
+  position: fixed;
+  color: white;
+  margin: 0em;
+  height: 4em;
+  line-height: 2em;
+  text-align: center;
+  background: #08769b;
+  box-shadow: 0 0 0 999px #08769b;
+  clip-path: inset(0 -100%);
+}
+.left {
+  inset: 0 auto auto 0;
+  transform-origin: 100% 0;
+  transform: translate(-29.3%) rotate(-45deg);
+}
+.right {
+  inset: 0 0 auto auto;
+  transform-origin: 0 0;
+  transform: translate(29.3%) rotate(45deg);
+}
+
