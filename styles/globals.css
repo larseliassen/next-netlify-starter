@@ -54,7 +54,7 @@ a[href^=tel] {
   background-clip:text;
   color:transparent;
   font-weight:bolder;
-  font-size: 6em;
+  font-size: 24vw;
   background-size: cover;
   font-family: Montserrat, sans-serif;
   white-space: pre;
@@ -108,7 +108,7 @@ body {
   overflow: auto;
 
   position: relative;
-  top: 10%;
+  height: 100%;
 }
 
 /* Individual item */
@@ -201,8 +201,8 @@ body {
   position: fixed;
   color: white;
   margin: 0em;
-  height: 4em;
-  line-height: 2em;
+  height: 3em;
+  line-height: 1.5em;
   text-align: center;
   background: #08769b;
   box-shadow: 0 0 0 999px #08769b;
