@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from "react";
 const names = [
-  'BJØRK', 'ROGN', 'SELJE', 'VED'
+  'GRAN', 'FURU', 'TRE'
 ]
 
 export default function Heading() {
@@ -18,7 +18,7 @@ export default function Heading() {
 
   return (
     <h1 className="clipped-heading" >
-      KNUSK<br />TØRR<br /><span>{newName}</span>
+      DU GRØNNE<br />GLITRENDE<br /><span>{newName}</span>
     </h1>
   )
 }

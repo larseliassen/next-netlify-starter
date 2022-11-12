@@ -25,7 +25,7 @@ div#App {
 }
 
 #App.wood {
-  background-image: url("/ved.jpg");
+  background-image: url("/pines.jpg");
   background-position: bottom;
   background-size: cover;
 }
@@ -49,19 +49,22 @@ a[href^=tel] {
   width:100%;
   text-align:center;
   height:auto;
-  background:url("/tre.jpg");
+  background:url("/jultre3.jpg");
+  background-position-y: bottom;
+  background-position-x: left;
+  background-size: contain;
   -webkit-background-clip:text;
   background-clip:text;
   color:transparent;
   font-weight:bolder;
-  font-size: min(24vw,24vh);
+  font-size: min(15vw,15vh);
   background-size: cover;
   font-family: Montserrat, sans-serif;
   white-space: pre;
 }
 
 h1 {
-  font-size: 6vw;
+  font-size: 4vw;
 }
 
 main {
@@ -204,8 +207,8 @@ body {
   height: 3em;
   line-height: 1.5em;
   text-align: center;
-  background: #08769b;
-  box-shadow: 0 0 0 999px #08769b;
+  background: #ff2020;
+  box-shadow: 0 0 0 999px #ff2020;
   clip-path: inset(0 -100%);
 }
 .left {
