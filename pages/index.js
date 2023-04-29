@@ -4,7 +4,7 @@ export default function Home() {
 
   return (
     <div style={{width: '100%'}}>
-      <div class="ribbon-1 right">kr 1700,- / pall <br/> Hjemlevering inkludert.</div>
+      <div class="ribbon-1 right">kr 1750,- / pall <br/> Hjemlevering inkludert.</div>
       <div id="page-wrap">
         <div id="logocontainer">
           <Heading></Heading>
