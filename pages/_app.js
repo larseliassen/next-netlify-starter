@@ -11,8 +11,6 @@ function Application({ Component, pageProps }) {
   const router = useRouter()
 
   return (
-
-    <link rel="icon" href="/favicon.svg" />
     <div id="App" className={router.pathname.substring(1)}>    
     
   <Component {...pageProps} />
